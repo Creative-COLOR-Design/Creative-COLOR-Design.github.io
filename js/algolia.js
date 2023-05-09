@@ -1,7 +1,7 @@
 (() => {
   // ns-params:@params
   var baseURL = "https://creative-color-design.github.io/";
-  var params = { blogroll: [{ name: "Creative COLOR Design", url: "https://github.com/Creative-COLOR-Design/COLOR-STONE-Iconpack" }], defaultcover: "/img/hello-world_view.webp", email: "\u{1F3A8}\u{1F48E}\u2728", mainSections: ["posts"], mainsections: ["posts"], page: "creative-color-design.github.io", socialmedia: [{ name: "Github", url: "https://github.com/Creative-COLOR-Design" }] };
+  var params = { blogroll: [{ name: "a Colorful Gallery", url: "https://creative-color-design.github.io/gallery" }, { name: "Creative COLOR Design", url: "https://github.com/Creative-COLOR-Design/COLOR-STONE-Iconpack" }], defaultcover: "/img/hello-world_view.webp", email: "\u{1F3A8}\u{1F48E}\u2728", mainSections: ["posts"], mainsections: ["posts"], page: "creative-color-design.github.io", socialmedia: [{ name: "Github", url: "https://github.com/Creative-COLOR-Design" }] };
 
   // <stdin>
   var { appid, appkey, searchindex: indexName, enabled } = params.algolia;
